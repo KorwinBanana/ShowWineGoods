@@ -14,6 +14,9 @@
 		0A14E8FC1F3CE06C0045E3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A14E8FB1F3CE06C0045E3FC /* Assets.xcassets */; };
 		0A14E8FF1F3CE06C0045E3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A14E8FD1F3CE06C0045E3FC /* LaunchScreen.storyboard */; };
 		0A14E90A1F3CE06C0045E3FC /* KWGoodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14E9091F3CE06C0045E3FC /* KWGoodsUITests.m */; };
+		0A14E9161F3CE0AB0045E3FC /* KWGoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14E9151F3CE0AB0045E3FC /* KWGoodsViewController.m */; };
+		0A14E9191F3CE1860045E3FC /* KWGoodsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A14E9181F3CE1860045E3FC /* KWGoodsGroup.m */; };
+		0A14E91B1F3CE35C0045E3FC /* wine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A14E91A1F3CE35C0045E3FC /* wine.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		0A14E9051F3CE06C0045E3FC /* KWGoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KWGoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A14E9091F3CE06C0045E3FC /* KWGoodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWGoodsUITests.m; sourceTree = "<group>"; };
 		0A14E90B1F3CE06C0045E3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A14E9141F3CE0AB0045E3FC /* KWGoodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWGoodsViewController.h; sourceTree = "<group>"; };
+		0A14E9151F3CE0AB0045E3FC /* KWGoodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWGoodsViewController.m; sourceTree = "<group>"; };
+		0A14E9171F3CE1860045E3FC /* KWGoodsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWGoodsGroup.h; sourceTree = "<group>"; };
+		0A14E9181F3CE1860045E3FC /* KWGoodsGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWGoodsGroup.m; sourceTree = "<group>"; };
+		0A14E91A1F3CE35C0045E3FC /* wine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = wine.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +93,15 @@
 				0A14E8F31F3CE06C0045E3FC /* AppDelegate.m */,
 				0A14E8F51F3CE06C0045E3FC /* ViewController.h */,
 				0A14E8F61F3CE06C0045E3FC /* ViewController.m */,
+				0A14E9141F3CE0AB0045E3FC /* KWGoodsViewController.h */,
+				0A14E9151F3CE0AB0045E3FC /* KWGoodsViewController.m */,
+				0A14E9171F3CE1860045E3FC /* KWGoodsGroup.h */,
+				0A14E9181F3CE1860045E3FC /* KWGoodsGroup.m */,
 				0A14E8F81F3CE06C0045E3FC /* Main.storyboard */,
 				0A14E8FB1F3CE06C0045E3FC /* Assets.xcassets */,
 				0A14E8FD1F3CE06C0045E3FC /* LaunchScreen.storyboard */,
 				0A14E9001F3CE06C0045E3FC /* Info.plist */,
+				0A14E91A1F3CE35C0045E3FC /* wine.plist */,
 				0A14E8EF1F3CE06C0045E3FC /* Supporting Files */,
 			);
 			path = KWGoods;
@@ -198,6 +211,7 @@
 				0A14E8FF1F3CE06C0045E3FC /* LaunchScreen.storyboard in Resources */,
 				0A14E8FC1F3CE06C0045E3FC /* Assets.xcassets in Resources */,
 				0A14E8FA1F3CE06C0045E3FC /* Main.storyboard in Resources */,
+				0A14E91B1F3CE35C0045E3FC /* wine.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +232,8 @@
 				0A14E8F71F3CE06C0045E3FC /* ViewController.m in Sources */,
 				0A14E8F41F3CE06C0045E3FC /* AppDelegate.m in Sources */,
 				0A14E8F11F3CE06C0045E3FC /* main.m in Sources */,
+				0A14E9191F3CE1860045E3FC /* KWGoodsGroup.m in Sources */,
+				0A14E9161F3CE0AB0045E3FC /* KWGoodsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
